@@ -24,12 +24,17 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 6.4rem;
   line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 4.0rem;
+}
+
+.my-auto-intro {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .subheading {
@@ -46,11 +51,17 @@ h2 {
   vertical-align: top;
 }
 
+.end-credit {
+  padding-left: 48px;
+  padding-top: 20px;
+}
+
 .list-social-icons a {
   color: #495057;
 }
 
 .list-social-icons a:hover {
+  /*bd5d38*/
   color: #BD5D38;
 }
 
@@ -73,6 +84,8 @@ h2 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
+  font-size: 1.6rem;
+  font-family: 'Saira Extra Condensed';
   text-transform: uppercase;
 }
 
@@ -93,8 +106,8 @@ h2 {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 14rem;
+    max-height: 14rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -111,12 +124,12 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {    
     display: block;
   }
 }
 
-section.resume-section {
+section.resume-section {    
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
